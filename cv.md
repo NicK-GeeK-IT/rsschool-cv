@@ -36,17 +36,34 @@ I'm proficient in coding languages such as HTML, CSS, JavaScript, and jQuery.
                     playerOneEl.classList.toggle('player--active');
                 }
                 
+                
+                
+                
+                
+                
 ##Skills
 
 
 
+
+
 I have been practicing my front-end skils for an year through the courses I have taken. Most of them from Udemy
+
+
+
 ###Example of my code
 
 
 
+
+
 Soon I will be providing it...
+
+
+
 ###Education
+
+
 
 
 
@@ -54,7 +71,11 @@ Soon I will be providing it...
 2022 JavaScript from zero to hero "Udemy Jonas Schmetdman"
 2022 Web development bootcamp "Udemy Angela Yu"
 2019-2023 Yangzhou university "China Yangzhou"
+
+
 ###English
+
+
 
 
 B2, IELTS 6.5 2nd December of 2017. It must be above B2 now as I'm still training
