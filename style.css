@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    /* height: 100vh;  */
+    margin: 0 auto;
+    padding: 2em;
+}
+.container__link a{
+    text-decoration: none;
+    color: #0366d6;
+    font-size: 4rem;
+}
+hr{
+    margin-top: 2rem;
+    opacity: 0.5;
+}
+.container__header h1{
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    color:rgb(44, 44, 44);
+}
+.container__contacts{
+    margin-top: 3rem;
+    font-size: 1.7rem;
+}
+.text__lg{
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    color: rgb(44, 44, 44);
+}
+.contacts__list{
+    font-size: 1.7rem;
+}
+.list__item a{
+    text-decoration: none;
+    color: #212121;
+}
+.list__item{
+    padding: .5rem;
+    line-height: 2rem;
+}
+.container__contacts ul{
+    padding-left: 5rem;
+}
+.container__text{
+    line-height: 1.5;
+    border-left: .5rem solid #dfe2e5;
+    padding-left: 2rem;
+}
+.pre__bg{
+    background-color: #f6f8fa;
+    padding: 4rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.texttt{
+    margin-top: 1.5rem;
+}
+.texttt span{
+    background-color:  rgba(27,31,35,0.05);
+    padding: 0.3rem; 
+}
