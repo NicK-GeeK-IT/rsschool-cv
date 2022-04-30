@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Shojalilov Nodirbek</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__link">
+            <h1>
+                <a href="#">
+                    rsschool-cv
+                </a>
+            </h1>
+            <hr>
+        </div>
+        <div class="container__header">
+            <h1>Shojalilov Nodirbek</h1>
+        </div>
+        <div class="container__contacts">
+            <div class="contacts__header">
+                <h4 class="text__lg">
+                    Contacts
+                </h4>
+            </div>
+            <ul class="contacts__list">
+                <li class="list__item">
+                    <a href="tel:+998916522606">
+                        Mobile: <span>+998916522606</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="#">
+                        E-Mail: <span>nodir.shojalilov@mail.ru</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="https://telegram.me/niickweb">
+                        Telegram: <span>@niickweb</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="discordapp.com/users/M1nDConTRoL#9819">
+                        Discord: <span>M1nDConTRoL#9819</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container__contacts">
+            <h4 class="text__lg">
+                Summary
+            </h4>
+            <p class="container__text">
+                I am an aspiring Junior JavaScript Front-End Developer with a load of determination and strong eager to learn. I gain the most satisfaction from work and experience when I am able to develop and meet organizations goals and customers expectations. I enjoy solving problems by exploring solutions and writing quality software, preferably leveraging modern programming languages, agile development practices, and mastering skills.      
+            </p>
+        </div>
+        <div class="container__contacts">
+            <h4 class="text__lg">
+                Skills
+            </h4>
+            <p>
+                I'm proficient in coding languages such as HTML, CSS, JavaScript, and jQuery.
+            </p>
+        </div>
+        <div class="container__contacts">
+            <h4 class="text__lg">
+                Code Example
+            </h4>
+            <div class="pre__bg">
+            <pre>
+                'use strict'
+                /*Basics*/
+                const playerZeroEl = document.querySelector('.player--0');
+                const playerOneEl = document.querySelector('.player--1');
+                const scoreZeroEl = document.querySelector('#score--0');
+                const scoreOneEl = document.getElementById('score--1');
+                const diceEl = document.querySelector('.dice');
+                const btnNewEl = document.querySelector('.btn--new');
+                const btnRollEl = document.querySelector('.btn--roll');
+                const btnHold = document.querySelector('.btn--hold');
+                const currentZero = document.getElementById('current--0');
+                const currentOne = document.getElementById('current--1');
+                
+                let scores, currentScore, activePlayer, playing;
+                
+                /* Init */
+                
+                const initial = function () {
+                  scores = [0, 0];
+                  currentScore = 0;
+                  activePlayer = 0;
+                  playing = true;
+                
+                  scoreZeroEl.textContent = 0;
+                  scoreOneEl.textContent = 0;
+                  currentZero.textContent = 0;
+                  currentOne.textContent = 0;
+                
+                  diceEl.classList.add('hidden');
+                  playerZeroEl.classList.remove('player--winner');
+                  playerOneEl.classList.remove('player--winner');
+                  playerZeroEl.classList.add('player--active');
+                  playerOneEl.classList.remove('player--active');
+                };
+                initial();
+                
+                /* Switch Function */
+                function switchPlayer () {
+                    document.getElementById(`current--${activePlayer}`).textContent = 0;
+                    currentScore = 0;
+                    activePlayer = activePlayer === 0 ? 1 : 0;
+                    playerZeroEl.classList.toggle('player--active');
+                    playerOneEl.classList.toggle('player--active');
+                }
+            </pre>
+            </div>
+        </div>
+        <div class="container__contacts">
+            <h4 class="text__lg">
+                Experience
+            </h4>
+            <p>
+                I have been practicing my front-end skils for an year through the courses I have taken.
+            </p>
+        </div>
+        <div class="container__contacts">
+            <h4 class="text__lg">
+                <i>Examples of my work</i> 
+            </h4>
+            <p style="font-weight: 500;">
+               Soon will be providing<em>...</em>
+            </p>
+        </div>
+        <div class="container__contacts ">
+            <h4 class="text__lg">
+                Education
+            </h4>
+            <h4 class="text__lg " style="margin-top: -2rem; margin-bottom: -2rem;">
+                Programming courses
+            </h4>
+            <p class="texttt">
+                <span>2022</span> Rolling Scopes School JS FE (in progress)
+            </p>
+            <p class="texttt">
+                <span>2022</span> JavaScript from zero to hero <i>"Udemy Jonas Schmetdman"</i>
+            </p>
+            <p class="texttt">
+                <span>2022</span> Web development bootcamp <i>"Udemy Angela Yu"</i>
+            </p>
+            <p class="texttt">
+                <span>2019-2023</span> Yangzhou university <i>"China Yangzhou"</i>
+            </p>
+        </div>
+        <div class="container__contacts">
+            <h4 class="text__lg">
+                Egnlish
+            </h4>
+            <p>
+               B2, IELTS 6.5 2<sup>nd</sup> December of 2017
+            </p>
+        </div>
+                
+        <div class="container__contacts">
+            <h4 class="text__lg">
+                Other Languages
+            </h4>
+            <p>
+            Russian, English, Chinese, Korean, Uzbek(Native) !
+            </p>
+        </div>
+    </div>
+</body>
+</html>
