@@ -1,1 +1,1 @@
-https://nick-geek-it.github.io/rsschool-cv/
+https://shojalilov.github.io/rsschool-cv/cv
